@@ -1,0 +1,6 @@
+node_modules
+# Keep environment variables out of version control
+.env
+vehicle_req.rest
+maintenance_req.rest
+package-lock.json

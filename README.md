@@ -29,3 +29,9 @@ Compile and build the project into dist folder
 - To migrate any changes to your schema using prismaORM
 - Update the schema in prisma/schema.prisma and then run this command to sync up the change in your db
 
+
+
+
+### setup your .env
+- create a .env file and instantiate DATABASE_URL= to connect to your db
+- this will be use by PrismaORM in prisma/schema.prisma to sync the schema and also to connect your project with the DB

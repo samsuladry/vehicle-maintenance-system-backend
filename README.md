@@ -1,3 +1,7 @@
+# About this project
+- This project use nodejs/Expressjs and typscript to create a rest API backend services
+- It use prismaORM to connect between the project and db
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -32,6 +36,6 @@ Compile and build the project into dist folder
 
 
 
-### setup your .env
+## setup your .env
 - create a .env file and instantiate DATABASE_URL= to connect to your db
 - this will be use by PrismaORM in prisma/schema.prisma to sync the schema and also to connect your project with the DB
